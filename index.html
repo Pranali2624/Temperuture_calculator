@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter - convert the temperature between Fahrenheit and Celsius scale</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <h1 class="Heading">Temperature Converter</h1>
+    
+    
+    <form id="tep-cal" onsubmit="calculateTemp(); return false">
+
+        <label for="temperature" id="formHeading">Plese Enter Temperature You Like To Convert</label>
+        
+        <br/>
+        <br/>
+        </label><input type="number" name="temp" id="temp" placeholder="Enter Number">
+
+        <select name="temp-def" id="tempdef">
+            <option value="cel">°C Celsius </option>
+            <option value="feh">°C Fahrenheit</option>
+        </select><br/>
+
+        <input type="submit" value="Submit" id="Submit-btn"  name="temp"><br>
+        <span id="ResultContainer"></span>
+
+    </form>
+
+
+    <script src="myscript.js"></script>
+</body>
+</html>

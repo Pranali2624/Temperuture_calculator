@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Phudu', cursive;
+}
+
+
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(132, 51, 132);
+    color: rgb(30, 29, 29);
+    display: grid;
+    place-items: center;
+}
+
+.Heading{
+    margin-top: 30px;
+    font-size: 4rem;
+    letter-spacing: 10px;
+}
+
+
+form{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tep-cal{
+    background-color:rgb(79, 32, 200);
+    height: 55%;
+    width: 50%;
+    border-radius: 10px;
+    
+    
+
+}
+
+
+
+#tep-cal label{
+
+    background-color: rgb(245, 249, 249);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+
+
+#temp{
+
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    height: 25px;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+
+#tempdef{
+
+    margin-right: 9px;
+    color: black;
+    height: 25px;
+}
+
+
+#tempdef select{
+    height: 25px;
+}
+
+
+
+#Submit-btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 65px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-left: 270px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+#Submit-btn:hover{
+    color: black;
+    background-color: white;
+    border: 0.8px solid black;
+    border-radius: 6px;
+    transition: 2s;
+    
+}
+
+
+
+#ResultContainer{
+    font-weight: 600;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+} 
+
