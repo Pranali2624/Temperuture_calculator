@@ -16,6 +16,7 @@ const calculateTemp = () =>{
     }
 
 
+
     const fehToCel = (feh) =>{
         let celsius = Math.round((feh - 32) * 5/9);
         return celsius;
