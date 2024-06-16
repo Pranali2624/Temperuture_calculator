@@ -9,6 +9,7 @@ const calculateTemp = () =>{
    console.log(valueTemp);
 
 
+
     
    const CelToFeh = (cel) => {
         let fahrenheit =  Math.round((cel * 9/5) + 32);
